@@ -1,8 +1,20 @@
 # Google Maps Company Scraper — Bundle
 
 Scrapes company names into exact addresses + lat/lng coordinates, matches results
-back to the original list, and builds Excel deliverables. All 15 city name lists
-are included.
+back to the original list, and builds Excel deliverables. Built and battle-tested
+across 15 Indian cities (~5,700 companies).
+
+## Getting the scraper binary (not committed)
+
+`gms_linux` / `google_maps_scraper.exe` are prebuilt binaries of the open-source
+[gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper) project
+(MIT). Download v1.18.1 from its releases page and drop the binary in this folder:
+
+- Linux (used inside WSL): `google_maps_scraper-1.18.1-linux-amd64` → rename to `gms_linux`, `chmod +x`
+- Windows: `google_maps_scraper-1.18.1-windows-amd64.exe`
+
+> Note: the Windows binary has a known bug (Chromium `--single-process` crash);
+> the WSL/Linux route is the proven path on Windows machines.
 
 ## Contents
 

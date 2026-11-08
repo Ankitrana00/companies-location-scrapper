@@ -1,0 +1,17 @@
+# local data & outputs - never commit
+*_names.txt
+*_queries.txt
+*_results.csv
+*_matched.json
+*_run_log.txt
+*_companies_locations.xlsx
+*_companies_matched.csv
+master_*.csv
+master_locations.xlsx
+_inner_run.sh
+resume*.json
+
+# binary: download from upstream releases (see README)
+gms_linux
+google_maps_scraper.exe
+cache/
